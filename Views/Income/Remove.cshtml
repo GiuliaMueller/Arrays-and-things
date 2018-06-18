@@ -1,0 +1,13 @@
+﻿<h1>@ViewBag.title</h1>
+
+<formm method ="post">
+
+    @foreach (var income in ViewBag.incomes)
+    {
+        <input type ="checkbox" name="incomeIds" id="@income.IncomeID" value="@income.IncomeID" />
+        <lable for ="@income.IncomeID">@income.Name</lable>
+        <br/>
+    }
+
+    <input type="submit" value="Remove Selected Income(s)" />
+</formm> 

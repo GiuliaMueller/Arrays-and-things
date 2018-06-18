@@ -1,0 +1,11 @@
+C:\Users\Giulia\source\repos\BudgetApp\BudgetApp\bin\MCD\Debug\netcoreapp2.0\BudgetApp.deps.json
+C:\Users\Giulia\source\repos\BudgetApp\BudgetApp\bin\MCD\Debug\netcoreapp2.0\BudgetApp.runtimeconfig.json
+C:\Users\Giulia\source\repos\BudgetApp\BudgetApp\bin\MCD\Debug\netcoreapp2.0\BudgetApp.runtimeconfig.dev.json
+C:\Users\Giulia\source\repos\BudgetApp\BudgetApp\bin\MCD\Debug\netcoreapp2.0\BudgetApp.dll
+C:\Users\Giulia\source\repos\BudgetApp\BudgetApp\bin\MCD\Debug\netcoreapp2.0\BudgetApp.pdb
+C:\Users\Giulia\source\repos\BudgetApp\BudgetApp\obj\MCD\Debug\netcoreapp2.0\BudgetApp.csprojAssemblyReference.cache
+C:\Users\Giulia\source\repos\BudgetApp\BudgetApp\obj\MCD\Debug\netcoreapp2.0\BudgetApp.csproj.CoreCompileInputs.cache
+C:\Users\Giulia\source\repos\BudgetApp\BudgetApp\obj\MCD\Debug\netcoreapp2.0\BudgetApp.AssemblyInfoInputs.cache
+C:\Users\Giulia\source\repos\BudgetApp\BudgetApp\obj\MCD\Debug\netcoreapp2.0\BudgetApp.AssemblyInfo.cs
+C:\Users\Giulia\source\repos\BudgetApp\BudgetApp\obj\MCD\Debug\netcoreapp2.0\BudgetApp.dll
+C:\Users\Giulia\source\repos\BudgetApp\BudgetApp\obj\MCD\Debug\netcoreapp2.0\BudgetApp.pdb

@@ -1,0 +1,57 @@
+﻿@model BudgetApp.ViewModels.AddExpenseViewModel
+
+@{
+
+}
+
+<h1>Add Expense</h1>
+
+<form asp-controller="Expense" asp-action="AddExpense" method="post">
+
+    <div asp-validation-summary="All"></div>
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input class="form-control" asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Amount"></label>
+        <input class="form-control" asp-for="Amount" />
+        <span asp-validation-for="Amount"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Type"></label>
+        <select asp-for="Type" asp-items="Model.ExpenseTypes"></select>
+    </div>
+
+    @* <div>
+            <input type="checkbox" name="Daily" id="1" value="Daily" />
+            <lable for="Daily">Daily</lable>
+
+            <input type="checkbox" name="Weekly" id="2" value="Weekly" />
+            <lable for="Weekly">Weekly</lable>
+
+            <input type="checkbox" name="BiWeekly" id="3" value="BiWeekly" />
+            <lable for="BiWeekly">BiWeekly</lable>
+
+            <input type="checkbox" name="Monthly" id="4" value="Monthly" />
+            <lable for="Monthly">Monthly</lable>
+
+            <input type="checkbox" name="BiMonthly" id="5" value="BiMonthly" />
+            <lable for="BiMonthly">BiMonthly</lable>
+
+            <input type="checkbox" name="Quarterly" id="6" value="Quarterly" />
+            <lable for="Quarterly">Quarterly</lable>
+
+            <input type="checkbox" name="Annually" id="7" value="Annually" />
+            <lable for="Annually">Annually</lable>
+
+        </div>
+        <br />
+
+
+        <input name="name" type=text />*@
+    <input type="submit" value="Add Expense" />
+</form>

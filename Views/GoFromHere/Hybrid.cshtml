@@ -1,0 +1,92 @@
+﻿<br />
+<h1> Hybrid Method</h1>
+
+<h3>
+    The Hybrid Method is in my opinion the best option.  In the Hybrid method, you take the strategy from the Snowball method and add it to the Avalanche strategy.  First organize the debts interest rates
+    from greatest to smallest, just like in the Avalanche method.  Attack this debt until it is gone, and then roll that payment amount into attacking the next hightest interest rate debt.
+    Remember you are still responsible to make the minimum payments on each of the other debts along the way.
+</h3>
+
+
+<h3>
+    Let's say for example you have three debts to pay, Student Loan at $23,674 with an interest rate of 4.27%, Medical Bill at $12,813 with an interest rate of 4.9%, and
+    Car Loan at $19,985 with an interest rate of 5%.  Using the Hybrid method the first thing you would do is to organize the debt interest rate amounts from greatest to least.
+</h3>
+
+
+
+    <table class="table">
+        <tr>
+            <th>Debt Name</th>
+            <th>Debt Total Amount</th>
+            <th>Minimum Payment</th>
+            <th>Interest Rate</th>
+            <th>Lenth of Term</th>
+        </tr>
+        <tr>
+            <td>Car Loan</td>
+            <td>$19,985</td>
+            <td>$377.14</td>
+            <td>5%</td>
+            <td>5 years</td>
+        </tr>
+        <tr>
+            <td>Medical Bill</td>
+            <td>$12,813</td>
+            <td>$294.49</td>
+            <td>4.9%</td>
+            <td>4 years</td>
+        </tr>
+        <tr>
+            <td>Student Loan</td>
+            <td>$23,674</td>
+            <td>$242.76</td>
+            <td>4.27%</td>
+            <td>10 years</td>
+        </tr>
+    </table>
+
+
+
+
+<h3>
+    Like in the Avalanche method, the Car Loan still has the greatest overall interest rate.  Your goal is to get rid of that debt as soon as possible.  The higher interst rate
+    is costing you more money.  While making the minimum payments on the Medical Bill and the Student Loan, you will also make EXTRA payments on the Car Loan.  Your extra payment
+    may only be $5 over the minimum amount, that's ok.  Pay as much as you can in extra based on your income.  Once the Car Loan is paid off, roll the $377.14 (plus your extra 
+    payment) into a new extra payment on the Medical Bill (the next highest interest rate debt).
+</h3>
+
+<h3>
+    The Hybrid methood combines the best from both strategies to make a super charged strategy.  The results are experienced much faster.  Selecting to pay off the higher interest rate first
+    will save money on interest, (Avalanche method).  Plus adding the extra payment to the next highest interest rate debt, (Snowball method), will add speed to the payoff!  This by far is the
+    superior method.
+</h3>
+
+@*<h3> Based off the data you listed on BudgetApp, using the Hybrid method your personal suggested payoff order is below </h3>
+
+    <table class="table">
+        <tr>
+            <th>Debt Name</th>
+            <th>Debt Total Amount</th>
+            <th>Minimum Payment</th>
+            <th>Interest Rate</th>
+        </tr>*@
+        @*
+        @foreach (var income in Model)
+        {
+        <tr>
+            <td>@income.Name</td>
+            <td>@income.Amount</td>
+        </tr>
+
+        }
+        *@
+    </table>
+
+
+<h3>
+    See how the Hybrid Method compares to the <span><a asp-controller="GoFromHere" asp-action="Snowball">Snowball Method</a></span>
+    and the <span><a asp-controller="GoFromHere" asp-action="Avalanche">Avalanche Method</a></span>.
+</h3>
+
+

@@ -1,0 +1,13 @@
+﻿<h1>@ViewBag.title</h1>
+
+<formm method="post">
+
+    @foreach (var saving in ViewBag.saving)
+    {
+        <input type="checkbox" name="savingIds" id="@saving.SavingID" value="@saving.SavingID" />
+        <lable for="@saving.SavingID">@saving.Name</lable>
+        <br />
+    }
+
+    <input type="submit" value="Remove Selected Saving(s)" />
+</formm> 

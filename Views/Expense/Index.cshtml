@@ -1,0 +1,37 @@
+﻿@model List<BudgetApp.Models.Expense>
+
+@{
+
+}
+
+<h1>Expense</h1>
+<br />
+<h3>On this page please list out all of your Expenses</h3>
+<br />
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Amount</th>
+        <th>Type</th>
+       @* <th>Interest Rate</th>
+        <th>Remaining Balance</th>*@
+    </tr>
+
+    @foreach (var expense in Model)
+    {
+        <tr>
+            <td>@expense.Name</td>
+            <td>@expense.Amount</td>
+            <td>@expense.Type</td>
+           @* <td>@expense.Percent</td>
+            <td>@expense.Balance</td>*@
+            
+        </tr>
+       
+
+    }
+</table>
+
+<p><a asp-controller="Expense" asp-action="AddExpense">Add Expense Amount</a></p>
+

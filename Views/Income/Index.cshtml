@@ -1,0 +1,41 @@
+﻿@model List<BudgetApp.Models.Income>
+
+@{
+
+}
+
+<h1>Income</h1>
+<br />
+<h3>On this page please list out all of your Incomes</h3>
+<br />
+
+<table class= "table">
+    <tr>
+        <th>Name</th>
+        <th>Amount</th>
+        <th>Type</th>
+       @* <th>Frequency</th>*@
+    </tr>
+
+    @foreach (var income in Model)
+    {
+        <tr>
+            <td>@income.Name</td>
+            <td>@income.Amount</td>
+            <td>@income.Type</td>
+           @* <td>@income.Frequency</td>*@
+        </tr>
+
+    }
+</table>
+
+<p><a asp-controller="Income" asp-action="AddIncome">Add Income Amount</a></p>
+
+@*<ul>
+    @foreach (string income in ViewBag.incomes)
+    {
+        <li>@income</li>
+
+    }
+</ul>
+*@

@@ -1,0 +1,36 @@
+﻿@model List<BudgetApp.Models.Saving>
+
+@{
+
+}
+
+<h1>Savings Goal</h1>
+<br />
+<h3>On this page please list out all of your Savings Goals</h3>
+<br />
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Amount</th>
+        <th>Type</th>
+        @*<th> Total Saved</th>
+        <th>Goal</th>*@
+        
+    </tr>
+
+    @foreach (var saving in Model)
+    {
+        <tr>
+            <td>@saving.Name</td>
+            <td>@saving.Amount</td>
+            <td>@saving.Type</td>
+            @*<td>@saving.TotalSaved</td>
+            <td>@saving.Goal</td>*@
+           
+        </tr>
+
+    }
+</table>
+
+<p><a asp-controller="Saving" asp-action="AddSaving">Add Savings Goal Amount</a></p>
